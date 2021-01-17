@@ -1,2 +1,2 @@
-# LearningNeuralNetworks
-This is a repository to document my progress on learning how neural networks work and implementing simple ones.
+# LearningMachineLearning
+This is a repository to document my progress on learning basic machine learning concepts.
