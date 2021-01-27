@@ -1,4 +1,4 @@
-# LearningMachineLearning
+# Learning Machine Learning
 
 ## Overview
 This is a repository to document my progress in learning basic machine learning concepts.
@@ -38,3 +38,6 @@ Support Vector Machine is an algorithm that splits data points into different si
 </br></br>
 ### K-Means Clustering
 K-Means Clustering works by plotting a K number of centroids in a pool of data points. In my case, the centroids were initially placed in random positions. The computer then finds the distance from each point to either of the centroids. If one point is closer to a certain centroid, it will mark it as part of that class. It will do this for all the points until each of the points is marked as part of a class out of K number of classes. After this, the computer calculates the average location of the data points in a specific class. The centroid that belongs to that class will then be repositioned to that calculated location. This happens for each of the centroids. The computer then checks the surrounding data points again and reassigns them to the class of the centroid they are closest to. This will happen over and over again until no points are reassigned to a different class. At this stage, the computer has successfully distinguished data points into a K number of classes. When an unknown data point is given, the computer is able to predict what class the data point belongs to. K-Means Clustering, however, has a downside when it comes to large data sets since it has to continuously calculate and recalculate distances for each of the data points. The dataset I used predicted what digits were being shown in data from handwritten digits. Since there are 10 different digits, K was equal to 10 in my case.
+</br></br>
+## Credits
+Mostly all of this was learned by watching [Tech with Tim's Youtube Channel](https://www.youtube.com/channel/UC4JX40jDee_tINbkjycV4Sg). For more information on [machine learning algorithms](https://www.youtube.com/watch?v=ujTCoH21GlA&list=PLzMcBGfZo4-mP7qA9cagf68V06sko5otr) and [neural networks](https://www.youtube.com/watch?v=OS0Ddkle0o4&list=PLzMcBGfZo4-lak7tiFDec5_ZMItiIIfmj), I highly recommend his playlists.
